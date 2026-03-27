@@ -226,7 +226,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 45
+  orthographic size: 43.2
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -481,7 +481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3cce95ef2cb02349a5e9415d36c7b59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController2D
-  hareketHizi: 43.2
+  hareketHizi: 26.8
 --- !u!61 &702449610
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -620,7 +620,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 34
-    OrthographicSize: 45
+    OrthographicSize: 43.2
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -1246,7 +1246,7 @@ Transform:
   m_GameObject: {fileID: 2075619112}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4, y: -80.9, z: 0}
+  m_LocalPosition: {x: -1.4, y: -80.9, z: 0.01}
   m_LocalScale: {x: 50.262497, y: 50.262497, z: 50.262497}
   m_ConstrainProportionsScale: 0
   m_Children: []
