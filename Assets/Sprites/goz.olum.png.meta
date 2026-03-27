@@ -1,0 +1,1614 @@
+fileFormatVersion: 2
+guid: ab93bee543f1cd348808c4e3fae0679b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 179882816888942721
+    second: goz.olum_0
+  - first:
+      213: -3447798590057018053
+    second: goz.olum_1
+  - first:
+      213: -7481465623968356645
+    second: goz.olum_2
+  - first:
+      213: 5969339988709473804
+    second: goz.olum_3
+  - first:
+      213: -8855493534275011054
+    second: goz.olum_4
+  - first:
+      213: 5475760479947518812
+    second: goz.olum_5
+  - first:
+      213: 4069958986729018425
+    second: goz.olum_6
+  - first:
+      213: -2880797497139505589
+    second: goz.olum_7
+  - first:
+      213: -8655082902995971833
+    second: goz.olum_8
+  - first:
+      213: -7070834672042822803
+    second: goz.olum_9
+  - first:
+      213: 9209046348090056307
+    second: goz.olum_10
+  - first:
+      213: 5546366503605198611
+    second: goz.olum_11
+  - first:
+      213: -3857138865506324584
+    second: goz.olum_12
+  - first:
+      213: 1427333553206722259
+    second: goz.olum_13
+  - first:
+      213: 5110756283019257564
+    second: goz.olum_14
+  - first:
+      213: -8576196220430153541
+    second: goz.olum_15
+  - first:
+      213: 4211754293611910184
+    second: goz.olum_16
+  - first:
+      213: -1765853686559509917
+    second: goz.olum_17
+  - first:
+      213: 2204216572245751254
+    second: goz.olum_18
+  - first:
+      213: 5865122628790857705
+    second: goz.olum_19
+  - first:
+      213: 1218428382829002540
+    second: goz.olum_20
+  - first:
+      213: 4440055530332547683
+    second: goz.olum_21
+  - first:
+      213: -3060323123082436287
+    second: goz.olum_22
+  - first:
+      213: 999700879492638838
+    second: goz.olum_23
+  - first:
+      213: -7434934269845550737
+    second: goz.olum_24
+  - first:
+      213: 5212857385993507039
+    second: goz.olum_25
+  - first:
+      213: 2615123020685647833
+    second: goz.olum_26
+  - first:
+      213: -1922796853683229025
+    second: goz.olum_27
+  - first:
+      213: 2941446245718173272
+    second: goz.olum_28
+  - first:
+      213: -7488878336508538759
+    second: goz.olum_29
+  - first:
+      213: 2006152534548639837
+    second: goz.olum_30
+  - first:
+      213: -5385187968877767385
+    second: goz.olum_31
+  - first:
+      213: -5459979962284467118
+    second: goz.olum_32
+  - first:
+      213: 3845215756394844556
+    second: goz.olum_33
+  - first:
+      213: -3758196682190254519
+    second: goz.olum_34
+  - first:
+      213: -7799979415013383712
+    second: goz.olum_35
+  - first:
+      213: 5349609693699073935
+    second: goz.olum_36
+  - first:
+      213: 3504997445323707294
+    second: goz.olum_37
+  - first:
+      213: -7910825110027253716
+    second: goz.olum_38
+  - first:
+      213: -7342878744007842467
+    second: goz.olum_39
+  - first:
+      213: 8538784543995876748
+    second: goz.olum_40
+  - first:
+      213: -3339502232179018748
+    second: goz.olum_41
+  - first:
+      213: 5483629264700817172
+    second: goz.olum_42
+  - first:
+      213: 5742227992510867979
+    second: goz.olum_43
+  - first:
+      213: 6404766418279966827
+    second: goz.olum_44
+  - first:
+      213: 1044349785926874469
+    second: goz.olum_45
+  - first:
+      213: 6532170651548805527
+    second: goz.olum_46
+  - first:
+      213: -1415247782229358860
+    second: goz.olum_47
+  - first:
+      213: 4451323873940477712
+    second: goz.olum_48
+  - first:
+      213: -5907082240537781872
+    second: goz.olum_49
+  - first:
+      213: 1619485788826931595
+    second: goz.olum_50
+  - first:
+      213: -7749099516270570407
+    second: goz.olum_51
+  - first:
+      213: 2441477607522919742
+    second: goz.olum_52
+  - first:
+      213: -4130354997236785169
+    second: goz.olum_53
+  - first:
+      213: 4604127052395863992
+    second: goz.olum_54
+  - first:
+      213: -1929081678040216896
+    second: goz.olum_55
+  - first:
+      213: 2724695851721111987
+    second: goz.olum_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: goz.olum_0
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 40
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180bcd908721f7200800000000000000
+      internalID: 179882816888942721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_1
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 97
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d0f861375f620d0800000000000000
+      internalID: -3447798590057018053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_2
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 102
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6e11c47ae7c2890800000000000000
+      internalID: -7481465623968356645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_3
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 44
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0eff82c71b57d250800000000000000
+      internalID: 5969339988709473804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 90
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ef4ca8c87fa1580800000000000000
+      internalID: -8855493534275011054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_5
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 92
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53f46a052fcdfb40800000000000000
+      internalID: 5475760479947518812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_6
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 94
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934546682266b7830800000000000000
+      internalID: 4069958986729018425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_7
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 84
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b465a2180f95508d0800000000000000
+      internalID: -2880797497139505589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_8
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 85
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7015e51d4f7f2e780800000000000000
+      internalID: -8655082902995971833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_9
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 85
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d633f5324595fdd90800000000000000
+      internalID: -7070834672042822803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_10
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 89
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e140aacda1dcf70800000000000000
+      internalID: 9209046348090056307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_11
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 73
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f5389f2f6a8fc40800000000000000
+      internalID: 5546366503605198611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_12
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 86
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f642843a0b87ac0800000000000000
+      internalID: -3857138865506324584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_13
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 85
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3def1e6ed48eec310800000000000000
+      internalID: 1427333553206722259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_14
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 42
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd665fee2cd0de640800000000000000
+      internalID: 5110756283019257564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_15
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 48
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb88635e9fa3bf880800000000000000
+      internalID: -8576196220430153541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_16
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 37
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824d6f71738237a30800000000000000
+      internalID: 4211754293611910184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_17
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 84
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3627e4f8d6d6e77e0800000000000000
+      internalID: -1765853686559509917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_18
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 69
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5bcb44b43f69e10800000000000000
+      internalID: 2204216572245751254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_19
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 78
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef2f25c4f9156150800000000000000
+      internalID: 5865122628790857705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_20
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 71
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fb6ce982ab8e010800000000000000
+      internalID: 1218428382829002540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_21
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 58
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36aea7cfafe3e9d30800000000000000
+      internalID: 4440055530332547683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_22
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 73
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141e1c6755c8785d0800000000000000
+      internalID: -3060323123082436287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_23
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 74
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678edcb37a6afdd00800000000000000
+      internalID: 999700879492638838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_24
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 78
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f694a7d6caec1d890800000000000000
+      internalID: -7434934269845550737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_25
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 64
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd01ae47c2ac75840800000000000000
+      internalID: 5212857385993507039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_26
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 66
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df1ae32888ca4420800000000000000
+      internalID: 2615123020685647833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_27
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 64
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ee8f0f27ad055e0800000000000000
+      internalID: -1922796853683229025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_28
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 64
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85620f9a6cd12d820800000000000000
+      internalID: 2941446245718173272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_29
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 48
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9705a4aa4d8221890800000000000000
+      internalID: -7488878336508538759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_30
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 58
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d507503e91947db10800000000000000
+      internalID: 2006152534548639837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_31
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 51
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72555520318f345b0800000000000000
+      internalID: -5385187968877767385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_32
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 52
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c984b07214a34b0800000000000000
+      internalID: -5459979962284467118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_33
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 30
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8156ac8b53fc5530800000000000000
+      internalID: 3845215756394844556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_34
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 41
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e8ff1870438dbc0800000000000000
+      internalID: -3758196682190254519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_35
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 45
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1a4c05c08e0c390800000000000000
+      internalID: -7799979415013383712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_36
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 42
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f876be74ca1ad3a40800000000000000
+      internalID: 5349609693699073935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_37
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 50
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93db233b9044a030800000000000000
+      internalID: 3504997445323707294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_38
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 32
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28c59cc97a173290800000000000000
+      internalID: -7910825110027253716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_39
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 47
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5565a2cfaad81a90800000000000000
+      internalID: -7342878744007842467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_40
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 44
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8558766d4bdf7670800000000000000
+      internalID: 8538784543995876748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_41
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 43
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404785cc964b7a1d0800000000000000
+      internalID: -3339502232179018748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_42
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 39
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fbd6243c3c91c40800000000000000
+      internalID: 5483629264700817172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_43
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 39
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a2ae08fed70bf40800000000000000
+      internalID: 5742227992510867979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_44
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 37
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68adee9f1d42e850800000000000000
+      internalID: 6404766418279966827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_45
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 36
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5653d6bd8964e7e00800000000000000
+      internalID: 1044349785926874469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_46
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 33
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7996cc1499ee6aa50800000000000000
+      internalID: 6532170651548805527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_47
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 30
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f64f0fe3a70c5ce0800000000000000
+      internalID: -1415247782229358860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_48
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017107eaa7746cd30800000000000000
+      internalID: 4451323873940477712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_49
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 32
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0991ab1dff3d50ea0800000000000000
+      internalID: -5907082240537781872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_50
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 37
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8192d99eb1997610800000000000000
+      internalID: 1619485788826931595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_51
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 31
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9549a83eb0ba57490800000000000000
+      internalID: -7749099516270570407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_52
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 30
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e356973d2fed1e120800000000000000
+      internalID: 2441477607522919742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_53
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 30
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef117973080ea6c0800000000000000
+      internalID: -4130354997236785169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_54
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 31
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf52d2192525ef30800000000000000
+      internalID: 4604127052395863992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_55
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 30
+        width: 39
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cac2bd3f668a35e0800000000000000
+      internalID: -1929081678040216896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goz.olum_56
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 31
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b931dae07010d520800000000000000
+      internalID: 2724695851721111987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b93a4df7024ebc84eb0042eed69ae412
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      goz.olum_0: 179882816888942721
+      goz.olum_1: -3447798590057018053
+      goz.olum_10: 9209046348090056307
+      goz.olum_11: 5546366503605198611
+      goz.olum_12: -3857138865506324584
+      goz.olum_13: 1427333553206722259
+      goz.olum_14: 5110756283019257564
+      goz.olum_15: -8576196220430153541
+      goz.olum_16: 4211754293611910184
+      goz.olum_17: -1765853686559509917
+      goz.olum_18: 2204216572245751254
+      goz.olum_19: 5865122628790857705
+      goz.olum_2: -7481465623968356645
+      goz.olum_20: 1218428382829002540
+      goz.olum_21: 4440055530332547683
+      goz.olum_22: -3060323123082436287
+      goz.olum_23: 999700879492638838
+      goz.olum_24: -7434934269845550737
+      goz.olum_25: 5212857385993507039
+      goz.olum_26: 2615123020685647833
+      goz.olum_27: -1922796853683229025
+      goz.olum_28: 2941446245718173272
+      goz.olum_29: -7488878336508538759
+      goz.olum_3: 5969339988709473804
+      goz.olum_30: 2006152534548639837
+      goz.olum_31: -5385187968877767385
+      goz.olum_32: -5459979962284467118
+      goz.olum_33: 3845215756394844556
+      goz.olum_34: -3758196682190254519
+      goz.olum_35: -7799979415013383712
+      goz.olum_36: 5349609693699073935
+      goz.olum_37: 3504997445323707294
+      goz.olum_38: -7910825110027253716
+      goz.olum_39: -7342878744007842467
+      goz.olum_4: -8855493534275011054
+      goz.olum_40: 8538784543995876748
+      goz.olum_41: -3339502232179018748
+      goz.olum_42: 5483629264700817172
+      goz.olum_43: 5742227992510867979
+      goz.olum_44: 6404766418279966827
+      goz.olum_45: 1044349785926874469
+      goz.olum_46: 6532170651548805527
+      goz.olum_47: -1415247782229358860
+      goz.olum_48: 4451323873940477712
+      goz.olum_49: -5907082240537781872
+      goz.olum_5: 5475760479947518812
+      goz.olum_50: 1619485788826931595
+      goz.olum_51: -7749099516270570407
+      goz.olum_52: 2441477607522919742
+      goz.olum_53: -4130354997236785169
+      goz.olum_54: 4604127052395863992
+      goz.olum_55: -1929081678040216896
+      goz.olum_56: 2724695851721111987
+      goz.olum_6: 4069958986729018425
+      goz.olum_7: -2880797497139505589
+      goz.olum_8: -8655082902995971833
+      goz.olum_9: -7070834672042822803
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
