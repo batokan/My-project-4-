@@ -2,17 +2,13 @@ using UnityEngine;
 
 public class FenerHasari : MonoBehaviour
 {
-    // Işığın Tetikleyici (Trigger) alanına bir obje girdiğinde çalışır
     void OnTriggerEnter2D(Collider2D temasEden)
     {
-        // Eğer giren objenin etiketi (Tag) "Dusman" ise
         if (temasEden.gameObject.CompareTag("Dusman"))
         {
-            // O düşman objesini anında sahneden yok et
-            Destroy(temasEden.gameObject);
-            
-            // Alternatif: Buraya bir toz olma efekti veya ses de ekleyebiliriz
-            Debug.Log("Düşman ışıkla eritildi!");
+            // Virgül koyup 1f yazdık. "f" harfi float (küsuratlı sayı) demek.
+            // Bu sayede düşman ışığa değdikten tam 1 saniye sonra yok olacak.
+            Destroy(temasEden.gameObject, 1f);
         }
     }
 }
