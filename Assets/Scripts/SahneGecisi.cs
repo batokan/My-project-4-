@@ -15,8 +15,8 @@ public class SahneGecisi : MonoBehaviour
 
     void Update()
     {
-        // Karakter içerideyken 'X' tuşuna basarsa ve henüz geçiş başlamadıysa...
-        if (icerideMi && Input.GetKeyDown(KeyCode.X) && !gecisBasladiMi)
+        // Karakter içerideyken 'E' tuşuna basarsa ve henüz geçiş başlamadıysa...
+        if (icerideMi && Input.GetKeyDown(KeyCode.E) && !gecisBasladiMi)
         {
             // Zamanlayıcılı geçişi başlat
             StartCoroutine(SahneYukleCoroutine());
@@ -37,7 +37,7 @@ public class SahneGecisi : MonoBehaviour
 
     IEnumerator SahneYukleCoroutine()
     {
-        gecisBasladiMi = true; // Tekrar X'e basılmasını engellemek için kilitliyoruz.
+        gecisBasladiMi = true; // Tekrar E'e basılmasını engellemek için kilitliyoruz.
 
         // 1. Ekranı yavaşça karartan animasyonun Trigger'ını çalıştır
         gecisAnimator.SetTrigger("KararmaBasla");
