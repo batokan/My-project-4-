@@ -10,6 +10,15 @@ public class FenerKontrol : MonoBehaviour
 
     void Start()
     {
+
+        anaKamera = Camera.main;
+        // Oyun başladığı anda fener Işığı tanımlanmışsa, onu otomatik olarak kapatır.
+        if (fenerIsigi != null)
+        {
+            fenerIsigi.SetActive(false); // false kapatmak, true açmak demektir
+        }
+
+
         anaKamera = Camera.main;
     }
 
