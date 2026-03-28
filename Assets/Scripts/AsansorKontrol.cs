@@ -2,23 +2,55 @@ using UnityEngine;
 
 public class AsansorKontrol : MonoBehaviour
 {
-    [Tooltip("Asansörün Animator'ünün bulunduğu objeyi buraya sürükleyin")]
-    public Animator asansorAnim; // Artık Animator'ü Unity'nin içinden biz atayacağız
-    private bool acildiMi = false;
+    [Header("Animasyon Ayarları")]
+    public Animator asansorAnim;
+    private bool asansorAcildiMi = false;
 
-    // Dikkat: Start fonksiyonunu sildik çünkü otomatik aramaya gerek kalmadı.
+    [Header("Etkileşim (UI) Ayarları")]
+    [Tooltip("Asansörün yanındayken çıkacak Bilgi Kutucuğunu buraya sürükleyin")]
+    public GameObject bilgiKutucuguUI; // UI objemizi tanımladığımız yer
 
+    void Start()
+    {
+        // Oyun ilk başladığında bilgi kutucuğunu gizlediğinden emin olalım
+        if (bilgiKutucuguUI != null)
+        {
+            bilgiKutucuguUI.SetActive(false);
+        }
+    }
+
+    // Karakter asansörün önündeki alana GİRDİĞİNDE çalışır
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Eğer asansör animatörü boş değilse, karaktere (Player) değdiyse ve asansör daha açılmadıysa
-        if (asansorAnim != null && other.CompareTag("Player") && !acildiMi)
+        // Giren obje Player ise
+        if (other.CompareTag("Player"))
         {
-            asansorAnim.SetTrigger("AsansorAc"); // Animator'daki tetikleyiciyi ateşle (İsmi ne yaptıysanız: Acil veya AsansorAc)
-            acildiMi = true;
+            // Asansör ilk kez açılacaksa animasyonu oynat
+            if (asansorAnim != null && !asansorAcildiMi)
+            {
+                asansorAnim.SetTrigger("AsansorAc");
+                asansorAcildiMi = true; // Sadece 1 kere açılsın
+            }
+
+            // Yanına geldiği sürece Bilgi Kutucuğu (UI) görünür olsun
+            if (bilgiKutucuguUI != null)
+            {
+                bilgiKutucuguUI.SetActive(true);
+            }
         }
-        else if (asansorAnim == null)
+    }
+
+    // Karakter asansörün önündeki alandan ÇIKIP UZAKLAŞTIĞINDA çalışır
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        // Çıkan obje Player ise, yani oyuncu uzaklaştıysa
+        if (other.CompareTag("Player"))
         {
-            Debug.LogWarning("Asansör Animatörünü Inspector'dan sürüklemeyi unuttunuz!");
+            // Bilgi Kutucuğunu (Interact UI'ını) kapatarak gizle
+            if (bilgiKutucuguUI != null)
+            {
+                bilgiKutucuguUI.SetActive(false);
+            }
         }
     }
 }
