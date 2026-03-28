@@ -1,6 +1,5 @@
 using UnityEngine;
 
-// 1. DUVARLARDAN GEÇMEMESİ İÇİN RIGIDBODY GERİ GELDİ!
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
 [RequireComponent(typeof(Animator))]
@@ -8,61 +7,75 @@ public class PlayerController2D : MonoBehaviour
 {
     [Header("=== HAREKET AYARLARI ===")]
     public float hareketHizi = 8f;
+    public float kosmaHizi = 14f;
 
     private Rigidbody2D rb;
     private Animator anim;
     private Vector2 hareketGirdisi;
-    private bool sagaBakiyor = false;
+    private bool sagaBakiyor = true;
     private bool oluMu = false;
+
+    private float geciciHiz;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
-        // Senin demin istediğin o "özgür hareket" hissini vermek için yerçekimini kodla 0 yapıyoruz.
         rb.gravityScale = 0f;
-        // Duvarların köşesine çarpınca topaç gibi dönmesini engelliyoruz.
         rb.freezeRotation = true;
-
-        // Hızlı koşarken duvar delme (Tunneling) bugına karşı önlemimiz:
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+
+        geciciHiz = hareketHizi;
     }
 
     void Update()
     {
         if (oluMu) return;
 
-        // Hem X (Sağ-Sol) hem Y (Yukarı-Aşağı) Tuşlarını Algıla
+        // Shift'e basılıyken hızı ayarla
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            geciciHiz = kosmaHizi;
+        }
+        else
+        {
+            geciciHiz = hareketHizi;
+        }
+
         hareketGirdisi.x = Input.GetAxisRaw("Horizontal");
         hareketGirdisi.y = Input.GetAxisRaw("Vertical");
-
         hareketGirdisi = hareketGirdisi.normalized;
 
-        // Ateş Etme 
         if (Input.GetButtonDown("Fire1")) { anim.SetTrigger("AtesEt"); }
 
-        // Test İçin Ölme Tuşu
         if (Input.GetKeyDown(KeyCode.K))
         {
             oluMu = true;
             anim.SetBool("Olu", true);
-            rb.linearVelocity = Vector2.zero; // Ölünce kayıp gitmesin
+            rb.linearVelocity = Vector2.zero; // Unity 6 öncesi için rb.velocity
             return;
         }
 
         YonuCevir();
+
+        // ---- ANİMASYON PARAMETRELERİ (GÜNCELLENDİ) ----
+
+        // 1. Durma/Yürüme hissi için hız değerini her halükarda yolluyoruz.
         anim.SetFloat("Hiz", hareketGirdisi.magnitude);
+
+        // 2. YENİ EKLENDİ: Karakter sadece tuşa bastığında değil, hareket ederken + shifte basarken KoşuyorBool'u True olur.
+        bool yuruyorMu = hareketGirdisi.magnitude > 0f;
+        bool kosmayaBasladi = Input.GetKey(KeyCode.LeftShift) && yuruyorMu;
+
+        anim.SetBool("Kosuyor", kosmayaBasladi);
     }
 
-    // 2. IŞINLANMA YERİNE FİZİKSEL YÜRÜME!
     void FixedUpdate()
     {
         if (!oluMu)
         {
-            // transform.Translate SİLDİK! Artık fizik objesine hız (velocity) vererek ilerletiyoruz. 
-            // Duvarlar ve Box Collider'lar artık bu hızı engelleyebilecek!
-            rb.linearVelocity = hareketGirdisi * hareketHizi;
+            rb.linearVelocity = hareketGirdisi * geciciHiz; // Unity 6 altındaysanız rb.velocity = hareketGirdisi * geciciHiz; kullanın
         }
     }
 
