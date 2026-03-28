@@ -1,38 +1,51 @@
+using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement; // Sahne geçişleri için bu kütüphane şarttır
+using UnityEngine.SceneManagement;
 
 public class SahneGecisi : MonoBehaviour
 {
-    [Tooltip("Map1")]
+    [Tooltip("Geçmek istediğiniz sahnenin tam adını buraya yazın.")]
     public string gidilecekSahneAdi;
 
-    private bool icerideMi = false; // Karakterin alanın içinde olup olmadığını kontrol eder
+    [Tooltip("Siyah ekran panelinin üstündeki Animator bileşenini sürükleyin.")]
+    public Animator gecisAnimator;
+
+    private bool icerideMi = false;
+    private bool gecisBasladiMi = false;
 
     void Update()
     {
-        // Karakter içerideyken 'X' tuşuna basarsa çalışır
-        if (icerideMi && Input.GetKeyDown(KeyCode.X))
+        // Karakter içerideyken 'X' tuşuna basarsa ve henüz geçiş başlamadıysa...
+        if (icerideMi && Input.GetKeyDown(KeyCode.X) && !gecisBasladiMi)
         {
-            // Yeni sahneyi yükle
-            SceneManager.LoadScene(gidilecekSahneAdi);
+            // Zamanlayıcılı geçişi başlat
+            StartCoroutine(SahneYukleCoroutine());
         }
     }
 
-    // Karakter alanın (Tetikleyicinin) İÇİNE GİRİNCE çalışır
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
-        {
-            icerideMi = true; // Karakter içeri girdi, artık tuşa basılabilir
-        }
+            icerideMi = true;
     }
 
-    // Karakter alanın İÇİNDEN ÇIKINCA çalışır
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
-        {
-            icerideMi = false; // Karakter dışarı çıktı, tuşa bassa bile çalışmaz
-        }
+            icerideMi = false;
+    }
+
+    IEnumerator SahneYukleCoroutine()
+    {
+        gecisBasladiMi = true; // Tekrar X'e basılmasını engellemek için kilitliyoruz.
+
+        // 1. Ekranı yavaşça karartan animasyonun Trigger'ını çalıştır
+        gecisAnimator.SetTrigger("KararmaBasla");
+
+        // 2. Animasyonun bitmesini bekle (Eğer animasyonu 1. saniyede bitirdiysen buraya 1f yaz)
+        yield return new WaitForSeconds(1f);
+
+        // 3. Ekran simsiyah olduktan sonra arka planda yeni sahneyi yükle
+        SceneManager.LoadScene(gidilecekSahneAdi);
     }
 }
