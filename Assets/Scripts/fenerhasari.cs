@@ -6,9 +6,8 @@ public class FenerHasari : MonoBehaviour
     {
         if (temasEden.gameObject.CompareTag("Dusman"))
         {
-            // Virgül koyup 1f yazdık. "f" harfi float (küsuratlı sayı) demek.
-            // Bu sayede düşman ışığa değdikten tam 1 saniye sonra yok olacak.
-            Destroy(temasEden.gameObject, 1f);
+            // Virgül koyup 2f yazdık. Düşman 2 saniye sonra yok olucak.
+            Destroy(temasEden.gameObject, 2f);
         }
     }
 }
